@@ -1,0 +1,147 @@
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------*****/
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(slick.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
+
+#title {
+    display: inline-block;
+    border: 4px #60003A solid;
+    width: 900px;
+    background-color: white;
+}
+#barra{
+    border: 4px #60003A solid;
+}
+.tituloContacto{
+    display: inline-block;
+    width: auto;
+    margin: 0 20px;
+    text-align: right;
+
+}
+#barra h3{
+    color: white;
+    display: inline;
+    position: inherit;
+}
+h3 a{
+    color: white;
+}
+p{
+    color: white;
+}
+tr:hover{
+background-color: #60003A;
+}
+a{
+    color: #0E0D0B;
+}
+a:hover{
+    color:#60003A;
+}
+table{
+    display: inline-block;
+    background-color: #0E0D0B;
+    border: 1px solid white;
+}
+tr{
+    border-style: solid 1 white;
+    color: white;
+    padding: white;
+}
+#barra h3:hover {
+color:#60003A;
+}
+label{
+    position: center;
+    float: center;
+    padding: 20px;
+    color: white;
+    font-style: bold 1px white;
+}
+.Services{
+    border: 4px white solid;
+    width: 100%;
+    height: 400px;
+    font-family: Poppins;
+}
+body{
+    background-color: #0B100C;
+}
+h1{
+    font-size: 57px;
+    color: #0E0D0B;
+    -webkit-text-stroke: 2px #60003A;
+    position: relative;
+}
+
+.Services .Services-box {
+    background: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: inline-block;
+}
+.Services .Services-box:hover {
+    background:  #60003A;
+    color: black;
+    transition: ease-in all 0.5s;
+    cursor: pointer;
+}
+a {
+    color: #1f1f1f;
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.Services {
+    background: #0B100C;
+   
+}
+.Services .Services-box i:hover {
+    background: #ddd;
+}
+.Services .Services-box {
+    text-align: center;
+    background-color: transparent;
+    border-radius: 20px;
+    border: #cecfd7 solid 2px;
+    padding: 40px;
+    transition: ease-in all 0.5s;
+    margin-bottom: 30px;padding-bottom: 5px;
+}
+
+.Services .Services-box h3 {
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+    display: block;
+    font-weight: 500;
+}
+.Services .Services-box p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+.Services .Productos h2{
+    color: white;
+}
+h2{
+    color: white;
+}
